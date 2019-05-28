@@ -3,16 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 //import cards 
-import {robots} from './robots';//use {robots} not robots b/c of multiple key:value pairs.
-import CardList from './CardList';
-
+import App from "./App"
 //formatting import
 import 'tachyons';
 import * as serviceWorker from './serviceWorker';
 
 //What Appears on the Webpage
 ReactDOM.render(
-    <CardList robots={robots}/>
+    <App />
 , document.getElementById('root')
 );
 
